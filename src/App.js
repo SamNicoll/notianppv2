@@ -14,7 +14,7 @@ class App extends React.Component {
             }
             total += element === "-" ? 0 : parseInt(element)
         });
-        return total;
+        return "The score is the friends you made along the way";
     };
 
     constructor(props) {
